@@ -29,7 +29,10 @@ const PageNavigation = () => {
   return (
     <div className="flex justify-between items-center sm:px-12 sm:py-8 px-4 py-3">
       <div className="flex items-center">
-        <RiArrowLeftSLine size={16} className="text-white cursor-pointer" />
+        <RiArrowLeftSLine
+          size={16}
+          className="text-white cursor-pointer mt-[-3px]"
+        />
         <button
           onClick={handlePrevious}
           className="text-white sm:px-6 px-3 py-2 hover:scale-110 transition-transform"
@@ -44,7 +47,10 @@ const PageNavigation = () => {
         >
           Next
         </button>
-        <RiArrowRightSLine size={16} className="text-white cursor-pointer" />
+        <RiArrowRightSLine
+          size={16}
+          className="text-white cursor-pointer mt-[-3px]"
+        />
       </div>
     </div>
   );
