@@ -1,5 +1,5 @@
-import CursorLineTrail from "@/app/components/CursourLine";
-import Header from "@/app/components/Header";
+import CursorLineTrail from "../../components/CursourLine";
+import Header from "../../components/Header";
 import React from "react";
 
 import ArchivePageNavigation from "../_components/ArchivePageNavigation";
