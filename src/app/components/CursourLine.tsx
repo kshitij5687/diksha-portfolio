@@ -8,22 +8,22 @@ const CursorLineTrail = () => {
   const requestRef = useRef<number>();
   const lastMoveTimeRef = useRef<number>(Date.now());
 
-  const updatePoints = () => {
-    const currentTime = Date.now();
-    const timeSinceLastMove = currentTime - lastMoveTimeRef.current;
-
-    // Remove points if mouse is idle (hasn't moved for 50ms)
-    if (timeSinceLastMove > 50 && pointsRef.current.length > 0) {
-      pointsRef.current = pointsRef.current.slice(1);
-      if (pathRef.current) {
-        pathRef.current.setAttribute("points", pointsRef.current.join(" "));
-      }
-    }
-
-    requestRef.current = requestAnimationFrame(updatePoints);
-  };
-
   useEffect(() => {
+    const updatePoints = () => {
+      const currentTime = Date.now();
+      const timeSinceLastMove = currentTime - lastMoveTimeRef.current;
+
+      // Remove points if mouse is idle (hasn't moved for 50ms)
+      if (timeSinceLastMove > 50 && pointsRef.current.length > 0) {
+        pointsRef.current = pointsRef.current.slice(1);
+        if (pathRef.current) {
+          pathRef.current.setAttribute("points", pointsRef.current.join(" "));
+        }
+      }
+
+      requestRef.current = requestAnimationFrame(updatePoints);
+    };
+
     const handleMouseMove = (e: MouseEvent) => {
       lastMoveTimeRef.current = Date.now();
       // Round coordinates for pixelated effect

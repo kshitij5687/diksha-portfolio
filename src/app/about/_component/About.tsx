@@ -47,15 +47,15 @@ const AboutMe = () => {
         <div className="xl:px-10 lg:px-4 flex flex-col h-[600px] justify-between">
           <div>
             <h3 className="font-bold 2xl:text-[34px] xl:text-[32px] lg:text-[28px] md:text-[23px] sm:text-[20px] about-animate">
-              I'm Diksha Sharma!
+              {`I'm Diksha Sharma!`}
             </h3>
             <p className="font-medium 2xl:text-[16px] lg:text-[14px] md:text-[14px] text-gray-600 2xl:w-[90%] w-full mt-2 about-animate">
-              A designer with 2+ years of experience who doesn't just think
+              {`  A designer with 2+ years of experience who doesn't just think
               outside the box, but obsesses over everything about it. Corners.
               Textures. Typography. And occasionally, what happens when it
               spins. Currently working at Please See as a Creative Designer. I
               believe in ideas that transformed not just on screen but into
-              experiences as well.
+              experiences as well.`}
             </p>
           </div>
           <div className="flex justify-end py-3 about-animate sm:text-md text-sm">
@@ -67,15 +67,15 @@ const AboutMe = () => {
       <div className="md:hidden sm:px-10 px-4 space-y-8 md:pt-36 sm:pt-32 pt-28 min-h-screen">
         <div className="px-3">
           <h3 className="text-[24px] font-bold about-animate">
-            I'm Diksha Sharma!
+            {`I'm Diksha Sharma!`}
           </h3>
           <p className="font-medium text-gray-600 about-animate mt-3 text-[14px]">
-            A designer with 2+ years of experience who doesn't just think
+            {` A designer with 2+ years of experience who doesn't just think
             outside the box, but obsesses over everything about it. Corners.
             Textures. Typography. And occasionally, what happens when it spins.
             Currently working at Please See as a Creative Designer. I believe in
             ideas that transformed not just on screen but into experiences as
-            well.
+            well.`}
           </p>
         </div>
         <Image

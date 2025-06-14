@@ -8,20 +8,20 @@ const CoverLetter = () => {
         <div className="flex-[70%]">
           <h4 className="text-xl font-semibold mb-4">What I do best</h4>
           <p className="mb-4 text-gray-600 2xl:w-[80%] xl:w-[80%] lg:w-[90%] md:w-[95%] w-full 2xl:text-[18px] lg:text-md sm:text-[14px] text-[13px]">
-            I thrive at the intersection of storytelling and design, where ideas
+            {`I thrive at the intersection of storytelling and design, where ideas
             find their voice and visuals carry meaning. My strengths lie in art
             direction, building brand identities, and shaping campaigns for
             brands like Haldiram’s, Diageo, MILKLAB, Surf Excel, and Sadhev. I
             have a keen interest in typography, and I like to begin every
             project with a simple - yet unexpected - thought that opens space
-            for something bigger, better, and more meaningful to grow.
+            for something bigger, better, and more meaningful to grow.`}
           </p>
           <p className="text-gray-600 xl:w-[80%] lg:w-[90%] w-full 2xl:text-[18px] md:w-[95%] lg:text-md sm:text-[14px] text-[13px]">
-            When I’m not designing, you’ll likely find me on a trek somewhere
+            {`When I’m not designing, you’ll likely find me on a trek somewhere
             remote or watching my daily dose of cinema (yes, one film a day—it's
             a thing). I’m known for being pretty loud and full of
             energy—sometimes a bit too much, if you ask my friends. They say
-            it's my most lovable (and occasionally annoying) trait. Here's my{" "}
+            it's my most lovable (and occasionally annoying) trait. Here's my `}
             <span className="font-bold">
               <Link
                 href="https://drive.google.com/file/d/1-3cPTLx0vP2FLIbk9L0foEnq2qdFVHB3/view?usp=drivesdk"
@@ -32,10 +32,10 @@ const CoverLetter = () => {
                 resume
               </Link>
             </span>
-            . If you're a founder or someone who values childlike curiosity and
+            {`. If you're a founder or someone who values childlike curiosity and
             creative spark, I’d love to connect. Let’s make something
             meaningful—or at the very least, have a great conversation. You can
-            reach here{" "}
+            reach here `}
             <a
               href="mailto:hello.tingree@gmail.com"
               className="text-black font-bold underline"

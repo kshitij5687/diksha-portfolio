@@ -94,7 +94,7 @@ const Project = () => {
             <div className="cursor-pointer">
               <div className="pb-4 flex flex-col gap-1">
                 <p className="font-medium text-[16px] sm:text-[20px] md:text-[24px]">
-                  Haldiram's Teej Campaign (2024 & 2025)
+                  {` Haldiram's Teej Campaign (2024 & 2025)`}
                 </p>
                 <p className="text-gray-500 font-normal text-[14px] sm:text-[18px]">
                   Art & Design Direction, Campaign Direction (India & Dubai)

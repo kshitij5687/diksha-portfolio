@@ -58,11 +58,11 @@ const ShuttrShowCase = () => {
               Shuttr up Studios
             </div>
             <p className="text-[12px] font-medium w-[90%] showcase-animate">
-              A bold play on words blending "camera shutter" and "shut her up."
+              {` A bold play on words blending "camera shutter" and "shut her up."
               It reclaims the phrase by emphasizing silence as power - letting
               visual storytelling speak louder than words. The brand offers
               visually rich, story-driven film content for brands, creators, and
-              narratives that need a sharp, cinematic edge.
+              narratives that need a sharp, cinematic edge.`}
             </p>
             <p className="text-[12px] font-medium w-[90%] showcase-animate">
               Scrawl | Bold | Minimal

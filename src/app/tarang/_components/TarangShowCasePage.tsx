@@ -63,10 +63,10 @@ const TarangShowCasePage = () => {
               Tarang - An experiential Type Specimen
             </div>
             <p className="text-[12px] font-medium w-[90%] showcase-animate">
-              A font usually lives as an .otf file you download and use — simple
+              {`   A font usually lives as an .otf file you download and use — simple
               and done. But what if I told you I’ve transformed a typeface into
               a tangible product? One that doesn’t just evoke curiosity, but
-              actively urges you to experiment with it.
+              actively urges you to experiment with it.`}
             </p>
           </div>
           <div className="text-white flex-[30%] text-start space-y-4">
@@ -96,12 +96,12 @@ const TarangShowCasePage = () => {
             What do you expect when you look at type?
           </h3>
           <p className="text-white font-medium md:text-md text-xs">
-            This is the question that gave birth to "Tarang" The Introductory
+            {` This is the question that gave birth to "Tarang" The Introductory
             Kit. I designed an interactive kit that explores showcasing type
             design in an experiential way. It makes use of different graphic
             production methods and reinterpreting traditional formats to
             showcase type as a stencil, a piece or a type specimen. It exhibits
-            itself in almost every thinkable way, 2d and 3d spaces as well.{" "}
+            itself in almost every thinkable way, 2d and 3d spaces as well. `}
           </p>
           <p className="text-white font-medium md:text-md text-xs">
             It is everything everywhere all at once.

@@ -68,9 +68,9 @@ const DiageoShowCasePage = () => {
               Please See Agency :
             </div>
             <p className="text-[12px] font-medium w-[90%] showcase-animate">
-              Diageo - The Good Craft.Co India's first sensorial Experience Home
-              with a vision to put Indian craft on world stage. The intersection
-              of Craft, Community and Innovation of Spirits.
+              {` Diageo - The Good Craft.Co India's first sensorial Experience Home
+                with a vision to put Indian craft on world stage. The intersection
+                of Craft, Community and Innovation of Spirits.`}
             </p>
           </div>
           <div className="text-white flex-[30%] text-start space-y-4">
