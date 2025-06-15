@@ -12,7 +12,7 @@ const Experience = () => {
         <Image
           src={pleaseSee}
           alt="Haldiram Project"
-          className="w-[100px] h-[100px]"
+          className="w-[100px] h-[100px] "
         />
         <div className="flex flex-col gap-3">
           <h3 className="font-bold text-xl sm:text-[18px] text-[16px]">
