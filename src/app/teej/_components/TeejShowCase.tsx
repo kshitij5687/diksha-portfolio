@@ -40,7 +40,7 @@ const TeejShowCase = () => {
     <div>
       <div className="max-w-[90%] mx-auto lg:px-24 md:px-12">
         <div
-          className="sm:flex justify-around lg:gap-48 md:gap-24 pt-20 sm:space-y-0 space-y-5 sm:px-0 px-4"
+          className="sm:flex justify-around lg:gap-48 md:gap-24 md:pt-20 sm:pt-14 pt-8 sm:space-y-0 space-y-5 sm:px-0 px-4"
           ref={textRef}
         >
           <div className="text-white flex-[70%] space-y-4">

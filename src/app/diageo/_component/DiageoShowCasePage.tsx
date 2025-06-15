@@ -11,8 +11,6 @@ import Diageo22 from "../../public/assets/diageo/Diageo22.png";
 import Diageo21 from "../../public/assets/diageo/Diageo21.gif";
 import Diageo20 from "../../public/assets/diageo/Diageo20.png";
 import Diageo19 from "../../public/assets/diageo/Diageo19.gif";
-import Diageo18 from "../../public/assets/diageo/Diageo18.png";
-import Diageo17 from "../../public/assets/diageo/Diageo17.png";
 import Diageo15 from "../../public/assets/diageo/Diageo15.png";
 import Diageo16 from "../../public/assets/diageo/Diageo16.png";
 import Diageo14 from "../../public/assets/diageo/Diageo14.jpg";
@@ -26,9 +24,7 @@ import Diageo7 from "../../public/assets/diageo/Diageo7.png";
 import Diageo6 from "../../public/assets/diageo/Diageo6.png";
 import Diageo5 from "../../public/assets/diageo/Diageo5.png";
 import Diageo4 from "../../public/assets/diageo/Diageo4.png";
-import Diageo3 from "../../public/assets/diageo/Diageo3.gif";
 // import Diageo2 from "../../public/assets/diageo/Diageo2.png";
-import Diageo1 from "../../public/assets/diageo/Diageo1.gif";
 import gsap from "gsap";
 import Image from "next/image";
 
@@ -60,7 +56,7 @@ const DiageoShowCasePage = () => {
     <div>
       <div className="max-w-[90%] mx-auto lg:px-24 md:px-12">
         <div
-          className="sm:flex justify-around lg:gap-48 md:gap-24 pt-20 sm:space-y-0 space-y-5 sm:px-0 px-4"
+          className="sm:flex justify-around lg:gap-48 md:gap-24 md:pt-20 sm:pt-14 pt-8 sm:space-y-0 space-y-5 sm:px-0 px-4"
           ref={textRef}
         >
           <div className="text-white flex-[70%] space-y-4">

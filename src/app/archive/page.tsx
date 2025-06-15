@@ -6,7 +6,7 @@ import Header from "../components/Header";
 
 const PlayPage = () => {
   return (
-    <div>
+    <div className="bg-black">
       <CursorLineTrail />
       <Header />
       <PlaySection />

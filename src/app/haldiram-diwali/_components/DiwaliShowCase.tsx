@@ -37,7 +37,7 @@ const DiwaliShowCase = () => {
       {" "}
       <div className="max-w-[90%] mx-auto lg:px-24 md:px-12">
         <div
-          className="sm:flex justify-around lg:gap-48 md:gap-24 pt-20 sm:space-y-0 space-y-5 sm:px-0 px-4"
+          className="sm:flex justify-around lg:gap-48 md:gap-24 md:pt-20 sm:pt-14 pt-8 sm:space-y-0 space-y-5 sm:px-0 px-4"
           ref={textRef}
         >
           <div className="text-white flex-[70%] space-y-4">
@@ -80,6 +80,41 @@ const DiwaliShowCase = () => {
               allowFullScreen // Changed from allowfullscreen to allowFullScreen for JSX
               className="absolute top-0 left-0 w-full h-full" // Make iframe fill the parent container
             ></iframe>
+          </div>
+        </div>
+
+        <div className="flex justify-between items-center md:px-16 sm:px-12 px-6 py-2.5 md:py-8 sm:py-4">
+          <div className="">
+            <a
+              href="https://www.instagram.com/reel/DBX7exdteaD"
+              // target="_blank"
+              // rel="noopener noreferrer"
+              className="md:text-lg sm:text-md text-xs font-semibold text-white underline cursor-pointer"
+            >
+              Film 1
+            </a>
+          </div>
+
+          <div className="">
+            <a
+              href="https://www.instagram.com/reel/DBQ9CqAtHN5"
+              // target="_blank"
+              // rel="noopener noreferrer"
+              className="md:text-lg sm:text-md text-xs font-semibold text-white underline cursor-pointer"
+            >
+              Film 2
+            </a>
+          </div>
+
+          <div className="">
+            <a
+              href="https://www.instagram.com/reel/DBdAybLNYql"
+              // target="_blank"
+              // rel="noopener noreferrer"
+              className="md:text-lg sm:text-md text-xs  font-semibold text-white underline cursor-pointer"
+            >
+              Film 3
+            </a>
           </div>
         </div>
 

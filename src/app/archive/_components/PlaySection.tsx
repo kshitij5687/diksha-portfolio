@@ -8,7 +8,7 @@ const PlaySection = () => {
   return (
     <div className="bg-black min-h-screen">
       <div>
-        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-12 sm:gap-8 items-end md:px-10 sm:px-8 px-4 pt-16 mt-4 sm:mt-0">
+        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-12 sm:gap-8 items-end md:px-10 sm:px-8 px-4 sm:pt-16 pt-8">
           {/* Tarang Section */}
           <Link
             href="/archive/motion"

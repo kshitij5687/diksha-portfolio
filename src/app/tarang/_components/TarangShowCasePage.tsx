@@ -55,7 +55,7 @@ const TarangShowCasePage = () => {
     <div>
       <div className="max-w-[90%] mx-auto lg:px-24 md:px-12">
         <div
-          className="sm:flex justify-around lg:gap-48 md:gap-24 pt-20 sm:space-y-0 space-y-5 sm:px-0 px-4"
+          className="sm:flex justify-around lg:gap-48 md:gap-24 md:pt-20 sm:pt-14 pt-8 sm:space-y-0 space-y-5 sm:px-0 px-4"
           ref={textRef}
         >
           <div className="text-white flex-[70%] space-y-4">
@@ -92,10 +92,10 @@ const TarangShowCasePage = () => {
         </div>
 
         <div className="md:space-y-6 sm:space-y-5 space-y-4 flex flex-col mx-auto lg:max-w-[60%] md:max-w-[70%] sm:max-w-[75%] max-w-[90%] lg:py-20 md:py-16 sm:py-12 py-8">
-          <h3 className="text-white font-bold md:text-xl sm:text-lg text-md">
+          <h3 className="text-white font-medium md:text-xl sm:text-lg text-md">
             What do you expect when you look at type?
           </h3>
-          <p className="text-white font-medium md:text-md text-xs">
+          <p className="text-white font-normal md:text-md text-xs">
             {` This is the question that gave birth to "Tarang" The Introductory
             Kit. I designed an interactive kit that explores showcasing type
             design in an experiential way. It makes use of different graphic
@@ -103,7 +103,7 @@ const TarangShowCasePage = () => {
             showcase type as a stencil, a piece or a type specimen. It exhibits
             itself in almost every thinkable way, 2d and 3d spaces as well. `}
           </p>
-          <p className="text-white font-medium md:text-md text-xs">
+          <p className="text-white font-normal md:text-md text-xs">
             It is everything everywhere all at once.
           </p>
         </div>
@@ -117,10 +117,10 @@ const TarangShowCasePage = () => {
         </div>
 
         <div className="md:space-y-6 sm:space-y-5 space-y-4 flex flex-col mx-auto lg:max-w-[60%] md:max-w-[70%] sm:max-w-[75%] max-w-[90%] lg:py-20 md:py-16 sm:py-12 py-8">
-          <h3 className="text-white font-bold md:text-xl sm:text-lg text-md">
+          <h3 className="text-white font-medium md:text-xl sm:text-lg text-md">
             Tarang - A Type Specimen
           </h3>
-          <p className="text-white font-medium md:text-md text-xs">
+          <p className="text-white font-normal md:text-md text-xs">
             A visual heavy specimen which flaunts type in a surreal way. It
             breaks the stereotypical methods of designing a specimen and thinks
             about the space it exists in.
@@ -192,10 +192,10 @@ const TarangShowCasePage = () => {
         </div>
 
         <div className="md:space-y-6 sm:space-y-5 space-y-4 flex flex-col mx-auto lg:max-w-[60%] md:max-w-[70%] sm:max-w-[75%] max-w-[90%] lg:py-20 md:py-16 sm:py-12 py-8">
-          <h3 className="text-white font-bold md:text-xl sm:text-lg text-md">
+          <h3 className="text-white font-medium md:text-xl sm:text-lg text-md">
             A variety of production techniques
           </h3>
-          <p className="text-white font-medium md:text-md text-xs">
+          <p className="text-white font-normal md:text-md text-xs">
             The project approach is defined by the many ways typography
             interacted with the space and the users while making use of varied
             use of mediums and materials. To make it more experiential and
@@ -224,15 +224,15 @@ const TarangShowCasePage = () => {
         </div>
 
         <div className="md:space-y-6 sm:space-y-5 space-y-4 flex flex-col mx-auto lg:max-w-[60%] md:max-w-[70%] sm:max-w-[75%] max-w-[90%] lg:py-20 md:py-16 sm:py-12 py-8">
-          <h3 className="text-white font-bold md:text-xl sm:text-lg text-md">
+          <h3 className="text-white font-medium md:text-xl sm:text-lg text-md">
             Interactivity through different mediums
           </h3>
-          <p className="text-white font-medium md:text-md text-xs">
+          <p className="text-white font-normal md:text-md text-xs">
             A typeface can always surprise the user by the way it is used and
             especially the way it can affect the public perception through its
             interactivity.
           </p>
-          <p className="text-white font-medium md:text-md text-xs">
+          <p className="text-white font-normal md:text-md text-xs">
             This limited edition experimental stencil encourages the user to try
             and create something new. It motivates them to move outside of their
             screens and experiment in the space.
@@ -283,15 +283,15 @@ const TarangShowCasePage = () => {
         </div>
 
         <div className="md:space-y-6 sm:space-y-5 space-y-4 flex flex-col mx-auto lg:max-w-[60%] md:max-w-[70%] sm:max-w-[75%] max-w-[90%] lg:py-20 md:py-16 sm:py-12 py-8">
-          <h3 className="text-white font-bold md:text-xl sm:text-lg text-md">
+          <h3 className="text-white font-medium md:text-xl sm:text-lg text-md">
             Tarang - The Introductory Kit.
           </h3>
-          <p className="text-white font-medium md:text-md text-xs">
+          <p className="text-white font-normal md:text-md text-xs">
             Tarang is a display typeface designed at G.A.S. They wanted to
             introduce this typeface and send out this concept product to other
             design studios and professionals.
           </p>
-          <p className="text-white font-medium md:text-md text-xs">
+          <p className="text-white font-normal md:text-md text-xs">
             The kit consisted of a type specimen, an experimental stencil, a
             gift offering piece and the link to download and preview the
             typeface from the website. And last but not the least to get
@@ -342,10 +342,10 @@ const TarangShowCasePage = () => {
         </div>
 
         <div className="md:space-y-6 sm:space-y-5 space-y-4 flex flex-col mx-auto lg:max-w-[60%] md:max-w-[70%] sm:max-w-[75%] max-w-[90%] lg:py-20 md:py-16 sm:py-12 py-8">
-          <h3 className="text-white font-bold md:text-xl sm:text-lg text-md">
+          <h3 className="text-white font-medium md:text-xl sm:text-lg text-md">
             Website Design and Development
           </h3>
-          <p className="text-white font-medium md:text-md text-xs">
+          <p className="text-white font-normal md:text-md text-xs">
             To reach out and promote the typeface we developed a website in
             order to make the most out of the font. The user can download and
             leave a feedback on the website itself.
@@ -364,10 +364,10 @@ const TarangShowCasePage = () => {
         </div>
 
         <div className="md:space-y-6 sm:space-y-5 space-y-4 flex flex-col mx-auto lg:max-w-[60%] md:max-w-[70%] sm:max-w-[75%] max-w-[90%] lg:py-20 md:py-16 sm:py-12 py-6">
-          <h3 className="text-white font-bold md:text-xl sm:text-lg text-md">
+          <h3 className="text-white font-medium md:text-xl sm:text-lg text-md">
             Animations for the website
           </h3>
-          <p className="text-white font-medium md:text-md text-xs">
+          <p className="text-white font-normal md:text-md text-xs">
             The landing page was designed with these animations. These
             animations became the brand assets and help promote the typeface
             better on social media.
