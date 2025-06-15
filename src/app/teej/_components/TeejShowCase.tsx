@@ -20,7 +20,7 @@ import NextTeej6 from "@/app/public/assets/teej/NextTeej6.png";
 import NextTeej7 from "@/app/public/assets/teej/NextTeej7.png";
 import NextTeej8 from "@/app/public/assets/teej/NextTeej8.png";
 import NextTeej9 from "@/app/public/assets/teej/NextTeej9.png";
-import NextTeej10 from "@/app/public/assets/teej/NextTeej10.png";
+import NextTeej10 from "@/app/public/assets/teej/NextTeej10.jpeg";
 import NextTeejGif from "@/app/public/assets/teej/NextTeejGif.gif";
 import NextTeejGif2 from "@/app/public/assets/teej/NextTeej2.gif";
 
@@ -153,6 +153,9 @@ const TeejShowCase = () => {
               className="w-full h-auto"
             />
           </div>
+        </div>
+        <div className="text-center lg:py-7 md:py-5 sm:py-4 py-2 md:mt-5 sm:mt-4 mt-2 text-white lg:text-xl md:text-lg sm:text-md text-xs">
+          Teej campaign 2024
         </div>
         <div className="">
           {" "}
