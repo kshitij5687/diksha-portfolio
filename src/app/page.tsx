@@ -13,10 +13,16 @@ import Project from "./components/Project";
 export default function Home() {
   const [showHeader, setShowHeader] = useState(true);
   const [introActive, setIntroActive] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // NEW!
 
   useEffect(() => {
     let lastScrollTop = 0;
+
     const handleScroll = () => {
+      if (mobileMenuOpen) {
+        // Prevent scroll effect when menu is open
+        return;
+      }
       const st = window.scrollY || document.documentElement.scrollTop;
       if (st > lastScrollTop) {
         // Scrolling down
@@ -34,7 +40,7 @@ export default function Home() {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [introActive]);
+  }, [introActive, mobileMenuOpen]);
 
   const projectsRef = useRef<HTMLDivElement>(null);
 
@@ -48,7 +54,10 @@ export default function Home() {
           showHeader ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
       >
-        <Header />
+        <Header
+          mobileMenuOpen={mobileMenuOpen}
+          setMobileMenuOpen={setMobileMenuOpen}
+        />
       </div>
 
       <div className="overflow-y-scroll scroll-smooth rotate-180 h-screen">
