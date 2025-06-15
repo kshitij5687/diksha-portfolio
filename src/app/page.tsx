@@ -14,31 +14,32 @@ export default function Home() {
   const [showHeader, setShowHeader] = useState(true);
   const [introActive, setIntroActive] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  console.log(introActive, setShowHeader);
 
-  useEffect(() => {
-    let lastScrollTop = 0;
+  // useEffect(() => {
+  //   let lastScrollTop = 0;
 
-    const handleScroll = () => {
-      if (mobileMenuOpen) return;
+  //   const handleScroll = () => {
+  //     if (mobileMenuOpen) return;
 
-      const st = window.scrollY || document.documentElement.scrollTop;
+  //     const st = window.scrollY || document.documentElement.scrollTop;
 
-      if (st > lastScrollTop) {
-        setShowHeader(true);
-      } else {
-        if (!introActive) {
-          setShowHeader(true);
-        } else {
-          setShowHeader(false);
-        }
-      }
+  //     if (st > lastScrollTop) {
+  //       setShowHeader(true);
+  //     } else {
+  //       if (!introActive) {
+  //         setShowHeader(true);
+  //       } else {
+  //         setShowHeader(false);
+  //       }
+  //     }
 
-      lastScrollTop = st <= 0 ? 0 : st;
-    };
+  //     lastScrollTop = st <= 0 ? 0 : st;
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [introActive, mobileMenuOpen]);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, [introActive, mobileMenuOpen]);
 
   const projectsRef = useRef<HTMLDivElement>(null);
 
