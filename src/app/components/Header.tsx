@@ -25,7 +25,6 @@ const Header = () => {
     "/teej",
     "/haldiram-diwali",
     "/archive/motion",
-    "/archive/illustration",
   ].includes(pathname);
   // const [activeTab, setActiveTab] = useState<string>("");
   const [activeIcon, setActiveIcon] = useState<string>("");
@@ -51,6 +50,31 @@ const Header = () => {
       ease: "power3.out",
     });
   }, []);
+
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const controlHeader = () => {
+      if (window.scrollY > lastScrollY && window.scrollY > 50) {
+        // Scroll down
+        setIsVisible(false);
+      } else {
+        // Scroll up
+        setIsVisible(true);
+      }
+      setLastScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", controlHeader);
+    return () => window.removeEventListener("scroll", controlHeader);
+  }, [lastScrollY]);
+
+  // Reset header visibility on route change
+  useEffect(() => {
+    setIsVisible(true);
+    setLastScrollY(0);
+  }, [pathname]);
 
   const isActive = (tab: string) => {
     const isPlayRoute = pathname === "/archive";
@@ -275,9 +299,9 @@ const Header = () => {
       <div className="sm:hidden">
         {/* Fixed Top Header */}
         <div
-          className={`fixed top-0 left-0 right-0 z-[60] ${
-            isDarkPage ? "bg-black text-white" : "bg-[#f2f1f1] text-black"
-          }`}
+          className={`fixed top-0 left-0 right-0 z-[60] transition-transform duration-300 ${
+            !isVisible ? "-translate-y-full" : "translate-y-0"
+          } ${isDarkPage ? "bg-black text-white" : "bg-[#f2f1f1] text-black"}`}
         >
           <div className="flex justify-between items-center p-4">
             <div
