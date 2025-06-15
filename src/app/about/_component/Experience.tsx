@@ -18,7 +18,7 @@ const Experience = () => {
           <h3 className="font-bold text-xl sm:text-[18px] text-[16px]">
             Please See - Motion Design Intern (June - Aug 2022)
           </h3>
-          <p className="2xl:w-[50%] xl:w-[50%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px]text-[14px]">
+          <p className="2xl:w-[50%] xl:w-[50%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
             As a 2D and 3D motion designer, I’ve brought brands like Stranger &
             Sons, Apsara, and Parle to life through web content and brand-driven
             visuals.
