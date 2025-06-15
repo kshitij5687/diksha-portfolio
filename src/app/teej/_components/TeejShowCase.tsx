@@ -154,7 +154,7 @@ const TeejShowCase = () => {
             />
           </div>
         </div>
-        <div className="text-center lg:py-7 md:py-5 sm:py-4 py-2 md:mt-5 sm:mt-4 mt-2 text-white lg:text-xl md:text-lg sm:text-md text-xs">
+        <div className="text-center lg:py-6 md:py-4 sm:py-3 py-1.5 md:mt-5 sm:mt-4 mt-2 text-white lg:text-xl md:text-lg sm:text-md text-xs">
           Teej campaign 2024
         </div>
         <div className="">
