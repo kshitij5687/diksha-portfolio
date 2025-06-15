@@ -60,7 +60,7 @@ const Experience = () => {
             bringing the design to life in a way you can see and touch. After
             that, I worked with Malabar Gold and Diamonds and De Beers
             Forevermark, creating immersive experiences for their flagship
-            stores, and also handled a packaging project for Wyn (What You
+            stores, and also worked on a packaging project for Wyn (What You
             Need).
           </p>
         </div>

@@ -13,15 +13,15 @@ const CoverLetter = () => {
             direction, building brand identities, and shaping campaigns for
             brands like Haldiram’s, Diageo, MILKLAB, Surf Excel, and Sadhev. I
             have a keen interest in typography, and I like to begin every
-            project with a simple - yet unexpected - thought that opens space
-            for something bigger, better, and more meaningful to grow.`}
+            project with a simple yet unexpected thought that opens space
+            for something bigger, better, and more intentional to grow.`}
           </p>
           <p className="text-gray-600 xl:w-[80%] lg:w-[90%] w-full 2xl:text-[18px] md:w-[95%] lg:text-md sm:text-[14px] text-[13px]">
             {`When I’m not designing, you’ll likely find me on a trek somewhere
             remote or watching my daily dose of cinema (yes, one film a day—it's
             a thing). I’m known for being pretty loud and full of
             energy—sometimes a bit too much. They say
-            it's my most lovable ye annoying trait. Here's my `}
+            it's my most lovable yet annoying trait. Here's my `}
             <span className="font-bold">
               <Link
                 href="https://drive.google.com/file/d/1-3cPTLx0vP2FLIbk9L0foEnq2qdFVHB3/view?usp=drivesdk"
