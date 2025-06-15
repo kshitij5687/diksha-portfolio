@@ -13,28 +13,26 @@ import Project from "./components/Project";
 export default function Home() {
   const [showHeader, setShowHeader] = useState(true);
   const [introActive, setIntroActive] = useState(false);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // NEW!
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     let lastScrollTop = 0;
 
     const handleScroll = () => {
-      if (mobileMenuOpen) {
-        // Prevent scroll effect when menu is open
-        return;
-      }
+      if (mobileMenuOpen) return;
+
       const st = window.scrollY || document.documentElement.scrollTop;
+
       if (st > lastScrollTop) {
-        // Scrolling down
         setShowHeader(true);
       } else {
-        // Scrolling up
         if (!introActive) {
           setShowHeader(true);
         } else {
           setShowHeader(false);
         }
       }
+
       lastScrollTop = st <= 0 ? 0 : st;
     };
 

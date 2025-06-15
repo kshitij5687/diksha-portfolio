@@ -13,13 +13,12 @@ import React, { useState, useEffect, useRef } from "react";
 import gsap from "gsap";
 import Link from "next/link";
 
-const Header = ({
-  mobileMenuOpen,
-  setMobileMenuOpen,
-}: {
+interface HeaderProps {
   mobileMenuOpen: boolean;
   setMobileMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
-}) => {
+}
+
+const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
   const pathname = usePathname();
   const isDarkPage = [
     "/haldiram",
