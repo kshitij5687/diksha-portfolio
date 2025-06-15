@@ -90,12 +90,11 @@ const Header = () => {
 
   const scrollToMain = async () => {
     if (pathname !== "/") {
-      await router.replace("/");
-      // Let Next.js re-render
-      requestAnimationFrame(() => {
+      await router.push("/");
+      setTimeout(() => {
         const element = document.getElementById("main-section");
         element?.scrollIntoView({ behavior: "smooth" });
-      });
+      }, 100);
     } else {
       const element = document.getElementById("main-section");
       element?.scrollIntoView({ behavior: "smooth" });
@@ -276,7 +275,7 @@ const Header = () => {
       <div className="sm:hidden">
         {/* Fixed Top Header */}
         <div
-          className={`sticky top-0 z-[60] ${
+          className={`fixed top-0 left-0 right-0 z-[60] ${
             isDarkPage ? "bg-black text-white" : "bg-[#f2f1f1] text-black"
           }`}
         >
