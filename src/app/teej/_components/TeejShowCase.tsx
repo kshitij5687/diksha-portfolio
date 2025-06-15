@@ -11,6 +11,18 @@ import Teej6 from "@/app/public/assets/teej/Teej6.png";
 import Teej7 from "@/app/public/assets/teej/Teej7.png";
 import Teej8 from "@/app/public/assets/teej/Teej8.png";
 import Image from "next/image";
+import NextTeej1 from "@/app/public/assets/teej/NextTeej1.png";
+import NextTeej2 from "@/app/public/assets/teej/NextTeej2.png";
+import NextTeej3 from "@/app/public/assets/teej/NextTeej3.png";
+import NextTeej4 from "@/app/public/assets/teej/NextTeej4.png";
+import NextTeej5 from "@/app/public/assets/teej/NextTeej5.png";
+import NextTeej6 from "@/app/public/assets/teej/NextTeej6.png";
+import NextTeej7 from "@/app/public/assets/teej/NextTeej7.png";
+import NextTeej8 from "@/app/public/assets/teej/NextTeej8.png";
+import NextTeej9 from "@/app/public/assets/teej/NextTeej9.png";
+import NextTeej10 from "@/app/public/assets/teej/NextTeej10.png";
+import NextTeejGif from "@/app/public/assets/teej/NextTeejGif.gif";
+import NextTeejGif2 from "@/app/public/assets/teej/NextTeej2.gif";
 
 const TeejShowCase = () => {
   const textRef = useRef<HTMLDivElement>(null);
@@ -78,19 +90,82 @@ const TeejShowCase = () => {
       <div className="mt-12 sm:mt-16 md:mt-20">
         <div className="">
           {" "}
+          <Image src={NextTeej1} alt="Teej Image 1" className="w-full h-auto" />
+        </div>{" "}
+        <div className="">
+          {" "}
+          <Image src={NextTeej2} alt="Teej Image 1" className="w-full h-auto" />
+        </div>{" "}
+        <div className="">
+          {" "}
+          <Image src={NextTeej3} alt="Teej Image 1" className="w-full h-auto" />
+        </div>
+        <div className="">
+          {" "}
+          <Image src={NextTeej4} alt="Teej Image 1" className="w-full h-auto" />
+        </div>{" "}
+        <div className="">
+          {" "}
+          <Image src={NextTeej5} alt="Teej Image 1" className="w-full h-auto" />
+        </div>{" "}
+        <div className="">
+          {" "}
+          <Image src={NextTeej6} alt="Teej Image 1" className="w-full h-auto" />
+        </div>{" "}
+        <div className="flex">
+          <div className="flex-1">
+            <Image
+              src={NextTeej7}
+              alt="Teej Image 7"
+              className="w-full h-auto object-contain"
+            />
+          </div>
+          <div className="flex-1">
+            <Image
+              src={NextTeejGif}
+              alt="Teej Image 8"
+              className="w-full h-auto object-contain"
+            />
+          </div>
+        </div>
+        <div className="">
+          {" "}
+          <Image src={NextTeej8} alt="Teej Image 1" className="w-full h-auto" />
+        </div>{" "}
+        <div className="">
+          {" "}
+          <Image src={NextTeej9} alt="Teej Image 1" className="w-full h-auto" />
+        </div>{" "}
+        <div className="flex">
+          <div className="flex-1">
+            {" "}
+            <Image
+              src={NextTeej10}
+              alt="Teej Image 1"
+              className="w-full h-auto"
+            />
+          </div>
+          <div className="flex-1">
+            {" "}
+            <Image
+              src={NextTeejGif2}
+              alt="Teej Image 1"
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+        <div className="">
+          {" "}
           <Image src={Teej1} alt="Teej Image 1" className="w-full h-auto" />
         </div>
-
         <div className="">
           {" "}
           <Image src={Teej2} alt="Teej GIF 2" className="w-full h-auto" />
         </div>
-
         <div className="">
           {" "}
           <Image src={Teej3} alt="Teej Image 3" className="w-full h-auto" />
         </div>
-
         <div className="flex">
           <div className="flex-1">
             <Image
@@ -107,12 +182,10 @@ const TeejShowCase = () => {
             />
           </div>
         </div>
-
         <div className="">
           {" "}
           <Image src={Teej6} alt="Teej Image 6" className="w-full h-auto" />
         </div>
-
         <div className="flex">
           <div className="flex-1">
             <Image
