@@ -20,8 +20,8 @@ const CoverLetter = () => {
             {`When I’m not designing, you’ll likely find me on a trek somewhere
             remote or watching my daily dose of cinema (yes, one film a day—it's
             a thing). I’m known for being pretty loud and full of
-            energy—sometimes a bit too much, if you ask my friends. They say
-            it's my most lovable (and occasionally annoying) trait. Here's my `}
+            energy—sometimes a bit too much. They say
+            it's my most lovable ye annoying trait. Here's my `}
             <span className="font-bold">
               <Link
                 href="https://drive.google.com/file/d/1-3cPTLx0vP2FLIbk9L0foEnq2qdFVHB3/view?usp=drivesdk"
@@ -32,9 +32,8 @@ const CoverLetter = () => {
                 resume
               </Link>
             </span>
-            {`. If you're a founder or someone who values childlike curiosity and
-            creative spark, I’d love to connect. Let’s make something
-            meaningful—or at the very least, have a great conversation. You can
+            {`. If you're a founder or someone who values, I’d love to connect. Let’s make something
+            with intention or the very least, have a great conversation. You can
             reach here `}
             <a
               href="mailto:hello.tingree@gmail.com"
@@ -45,14 +44,14 @@ const CoverLetter = () => {
           </p>
         </div>
         <div className="flex-[30%] flex flex-col">
-          <p className="font-semibold mb-2 text-xl">Select features</p>
+          <p className="font-semibold mb-2 text-xl">Select feature</p>
           <ul className="space-y-2 text-sm text-gray-700 text-start">
             <li>
               <Link
                 href="https://www.creativegaga.com/artist/diksha-sharma"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="2xl:text-[18px] lg:text-[16px] sm:text-[14px] text-[13px]"
+                className="2xl:text-[18px] lg:text-[16px] sm:text-[14px] text-[13px] underline"
               >
                 Creative gaga
               </Link>

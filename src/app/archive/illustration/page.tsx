@@ -1,9 +1,9 @@
-import CursorLineTrail from "../../components/CursourLine";
-import Header from "../../components/Header";
 import React from "react";
 
 import ArchivePageNavigation from "../_components/ArchivePageNavigation";
 import IllustrationShowCase from "./_components/IllustrationShowCase";
+import CursorLineTrail from "../../components/CursourLine";
+import Header from "../../components/Header";
 
 const Illustrations = () => {
   return (

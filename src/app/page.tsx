@@ -59,7 +59,7 @@ export default function Home() {
           <Intro setIntroActive={setIntroActive} />
         </div>
         <div
-          className="rotate-180 bg-[#f2f1f1] text-center pt-20"
+          className="rotate-180 bg-[#f2f1f1] text-center sm:pt-20 pt-6"
           ref={projectsRef}
           id="work-section"
         >

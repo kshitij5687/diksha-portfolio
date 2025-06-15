@@ -61,7 +61,7 @@ const Project = () => {
         </div> */}
 
         {/* next 2*/}
-        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:gap-8 items-end">
+        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:gap-8 gap-6 items-end">
           {/* Shuttrup Studios Section */}
           <Link
             href="/shuttrup"
@@ -113,7 +113,7 @@ const Project = () => {
         </div>
 
         {/* next 2*/}
-        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:gap-8 items-end">
+        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:mt-0 mt-4 sm:gap-8 gap-6 items-end">
           {/* Tarang Section */}
           <Link
             href="/tarang"
@@ -165,7 +165,7 @@ const Project = () => {
         </div>
 
         {/* first 2*/}
-        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:gap-8 items-end">
+        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:gap-8 gap-6 sm:mt-0 mt-4 items-end">
           {/* Haldiram Section */}
           <Link
             href="/haldiram"
