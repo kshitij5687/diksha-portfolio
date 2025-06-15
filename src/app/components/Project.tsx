@@ -11,7 +11,7 @@ import React from "react";
 const Project = () => {
   return (
     <div className="bg-[#f2f1f1]">
-      <div className="p-8 flex flex-col md:gap-20 sm:gap-16 gap-8">
+      <div className="sm:p-8 p-5 flex flex-col md:gap-20 sm:gap-16 gap-8">
         {/* <div className="flex flex-col sm:flex-row sm:gap-8 gap-6 items-end">
           <Link
             href="/tarang"
@@ -61,7 +61,7 @@ const Project = () => {
         </div> */}
 
         {/* next 2*/}
-        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:gap-8 gap-6 items-end">
+        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:gap-8 gap-10 items-end">
           {/* Shuttrup Studios Section */}
           <Link
             href="/shuttrup"
@@ -113,7 +113,7 @@ const Project = () => {
         </div>
 
         {/* next 2*/}
-        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:mt-0 mt-4 sm:gap-8 gap-6 items-end">
+        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:mt-0 mt-8 sm:gap-8 gap-10 items-end">
           {/* Tarang Section */}
           <Link
             href="/tarang"
@@ -165,7 +165,7 @@ const Project = () => {
         </div>
 
         {/* first 2*/}
-        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:gap-8 gap-6 sm:mt-0 mt-4 items-end">
+        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:gap-8 gap-10 sm:mt-0 mt-8 items-end">
           {/* Haldiram Section */}
           <Link
             href="/haldiram"

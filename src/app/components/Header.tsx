@@ -30,6 +30,7 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
     "/teej",
     "/haldiram-diwali",
     "/archive/motion",
+    "/archive/illustration",
   ].includes(pathname);
   // const [activeTab, setActiveTab] = useState<string>("");
   const [activeIcon, setActiveIcon] = useState<string>("");
