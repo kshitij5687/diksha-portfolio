@@ -60,7 +60,7 @@ const Main = () => {
         // Responsive font size for the main lines
         lg:text-[32px] md:text-[28px] sm:text-[26px] text-[14px]
         // Responsive spacing and leading for the overall block
-        space-y-2 lg:leading-[32px] md:leading-[32px] sm:leading-[30px] leading-[20px]"
+        space-y-2 lg:leading-[45px] md:leading-[40px] sm:leading-[32px] leading-[20px] tracking-normal"
       >
         {/* Content for screens >= 640px (sm: and up) */}
         <div className="hidden sm:block">
