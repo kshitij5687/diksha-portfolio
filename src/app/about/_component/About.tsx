@@ -49,13 +49,13 @@ const AboutMe = () => {
             <h3 className="font-bold 2xl:text-[34px] xl:text-[32px] lg:text-[28px] md:text-[23px] sm:text-[20px] about-animate">
               {`I'm Diksha Sharma!`}
             </h3>
-            <p className="font-medium 2xl:text-[16px] lg:text-[14px] md:text-[14px] text-gray-600 2xl:w-[90%] w-full mt-2 about-animate">
-              {`  A designer with 2+ years of experience who doesn't just think
+            <p className="font-medium 2xl:text-[16px] lg:text-[14px] md:text-[14px] text-gray-600 2xl:w-[85%] lg:w-[84%] w-full mt-2 about-animate">
+              {` A designer with 2+ years of experience who doesn't just think
               outside the box, but obsesses over everything about it. Corners.
               Textures. Typography. And occasionally, what happens when it
-              spins. Currently working at Please See as a Creative Designer. I
-              believe in ideas that transformed not just on screen but into
-              experiences as well.`}
+              spins. Currently working at Please See as a Creative Designer. I believe in
+            ideas that transform not just on screens but into experiences as
+            well.`}
             </p>
           </div>
           <div className="flex justify-end py-3 about-animate sm:text-md text-sm">
