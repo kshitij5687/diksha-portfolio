@@ -28,24 +28,6 @@ const Experience = () => {
 
       <div className="sm:flex lg:gap-16 md:gap-14 sm:gap-12 items-center sm:space-y-0 space-y-4">
         <Image
-          src={misoInc}
-          alt="Haldiram Project"
-          className="w-[100px] h-[100px]"
-        />
-        <div className="flex flex-col sm:gap-3 gap-2">
-          <h3 className="font-bold text-xl sm:text-[18px] text-[16px]">
-            Part time Graphic Designer (June 2023 - March 2025)
-          </h3>
-          <p className="2xl:w-[50%] xl:w-[50%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
-            I’ve also worked on a variety of projects — from packaging and
-            publications to decks — for brands like Dolphy, Rama Cafe, Planet
-            Motors, and more.
-          </p>
-        </div>
-      </div>
-
-      <div className="sm:flex lg:gap-16 md:gap-14 sm:gap-12 items-center sm:space-y-0 space-y-4">
-        <Image
           src={gas}
           alt="Haldiram Project"
           className="w-[100px] h-[100px]"
@@ -62,6 +44,24 @@ const Experience = () => {
             Forevermark, creating immersive experiences for their flagship
             stores, and also worked on a packaging project for Wyn (What You
             Need).
+          </p>
+        </div>
+      </div>
+
+      <div className="sm:flex lg:gap-16 md:gap-14 sm:gap-12 items-center sm:space-y-0 space-y-4">
+        <Image
+          src={misoInc}
+          alt="Haldiram Project"
+          className="w-[100px] h-[100px]"
+        />
+        <div className="flex flex-col sm:gap-3 gap-2">
+          <h3 className="font-bold text-xl sm:text-[18px] text-[16px]">
+            Part time Graphic Designer (June 2023 - March 2025)
+          </h3>
+          <p className="2xl:w-[50%] xl:w-[50%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
+            I’ve also worked on a variety of projects — from packaging and
+            publications to decks — for brands like Dolphy, Rama Cafe, Planet
+            Motors, and more.
           </p>
         </div>
       </div>

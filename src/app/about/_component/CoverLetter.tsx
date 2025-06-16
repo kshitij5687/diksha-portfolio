@@ -32,7 +32,7 @@ const CoverLetter = () => {
                 resume
               </Link>
             </span>
-            {`. If you're a founder or someone who values, I’d love to connect. Let’s make something
+            {`. If you're a founder or someone who values childlike curiosity, I’d love to connect. Let’s make something
             with intention or the very least, have a great conversation. You can
             reach here `}
             <a
