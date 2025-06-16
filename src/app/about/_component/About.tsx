@@ -37,7 +37,7 @@ const AboutMe = () => {
 
   return (
     <div className="bg-[#f2f1f1]" ref={aboutRef}>
-      <div className="xl:px-20 lg:px-14 md:px-10 lg:pt-40 md:pt-32 sm:pt-28 pt-20 md:flex gap-8 md:pb-10 sm:pb-6 pb-4 hidden">
+      <div className="xl:px-20 lg:px-14 md:px-10  lg:pt-40 md:pt-32 sm:pt-28 pt-20 md:flex gap-8 md:pb-10 sm:pb-6 pb-4 hidden">
         <Image
           ref={imageRef}
           src={DikshaImagePhone}
