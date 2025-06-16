@@ -69,7 +69,7 @@ const Main = () => {
               key={`large-${i}`} // Unique key for this set
               className={`main-line ${
                 i === 1
-                  ? "text-gray-600 lg:text-[24px] md:text-[22px] sm:text-[18px] text-[14px] font-normal lg:tracking-normal md:tracking-tight"
+                  ? "text-gray-600  lg:text-[24px] md:text-[22px] sm:text-[18px] text-[14px] font-normal lg:tracking-normal md:tracking-tight"
                   : "" // The main text color (text-gray-900) is inherited for the first line
               }`}
             >
