@@ -36,7 +36,7 @@ const Experience = () => {
           <h3 className="font-bold text-xl sm:text-[18px] text-[16px]">
             Creative design Intern (Jan - June 2023)
           </h3>
-          <p className="2xl:w-[50%] xl:w-[49%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
+          <p className="2xl:w-[50%] xl:w-[47%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
             For my graduation project, I transformed a typeface from just a
             digital file on the screen into a tangible, experiential PR kit —
             bringing the design to life in a way you can see and touch. After
