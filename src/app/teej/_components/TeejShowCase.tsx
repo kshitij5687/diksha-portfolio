@@ -80,7 +80,7 @@ const TeejShowCase = () => {
                 Food Stylist - Kirin Vas
               </div>
               <div className="text-[12px] font-medium showcase-animate">
-                Production - The A Team
+                Production - Surfing Hippos Production
               </div>
             </div>
           </div>
