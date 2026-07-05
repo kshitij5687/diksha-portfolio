@@ -45,7 +45,7 @@ const Intro = ({
       },
       {
         threshold: 0.3, // Trigger when 30% of the intro is visible
-      }
+      },
     );
 
     observer.observe(element);
@@ -69,10 +69,10 @@ const Intro = ({
 
   const introLines = [
     <>
-      A <span className="font-semibold">Visual Communication Designer</span>{" "}
+      A <span className="font-semibold">Brand & Communication Designer</span>{" "}
       currently
     </>,
-    <>at Please See, building brands and campaigns.</>,
+    <>at Lenskart, building brands and campaigns.</>,
     <>
       I’m drawn to films, art, and ideas — the kind <br /> that have potential,
       or simply make me <br /> pause and rethink.

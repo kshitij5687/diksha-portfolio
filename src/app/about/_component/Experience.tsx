@@ -1,6 +1,6 @@
+import lenskart from "@/app/public/assets/LenskartLogo.jpeg";
 import pleaseSee from "@/app/public/assets/pleaseSee.jpg";
 import misoInc from "@/app/public/assets/MisoInc.jpg";
-import diwali from "@/app/public/assets/diwali.png";
 import gas from "@/app/public/assets/gas.jpeg";
 import Image from "next/image";
 import React from "react";
@@ -18,7 +18,7 @@ const Experience = () => {
           <h3 className="font-bold text-xl sm:text-[18px] text-[16px]">
             Please See - Motion Design Intern (June - Aug 2022)
           </h3>
-          <p className="2xl:w-[50%] xl:w-[50%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
+          <p className="2xl:w-[60%] xl:w-[55%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
             As a 2D and 3D motion designer, I’ve brought brands like Stranger &
             Sons, Apsara, and Parle to life through web content and brand-driven
             visuals.
@@ -36,7 +36,7 @@ const Experience = () => {
           <h3 className="font-bold text-xl sm:text-[18px] text-[16px]">
             Creative design Intern (Jan - June 2023)
           </h3>
-          <p className="2xl:w-[50%] xl:w-[47%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
+          <p className="2xl:w-[60%] xl:w-[55%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
             For my graduation project, I transformed a typeface from just a
             digital file on the screen into a tangible, experiential PR kit —
             bringing the design to life in a way you can see and touch. After
@@ -58,7 +58,7 @@ const Experience = () => {
           <h3 className="font-bold text-xl sm:text-[18px] text-[16px]">
             Part time Graphic Designer (June 2023 - March 2025)
           </h3>
-          <p className="2xl:w-[50%] xl:w-[50%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
+          <p className="2xl:w-[60%] xl:w-[55%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
             I’ve also worked on a variety of projects — from packaging and
             publications to decks — for brands like Dolphy, Rama Cafe, Planet
             Motors, and more.
@@ -74,14 +74,37 @@ const Experience = () => {
         />
         <div className="flex flex-col gap-3">
           <h3 className="font-bold text-xl sm:text-[18px] text-[16px]">
-            Junior Creative Designer (Oct 2023 - Present)
+            Junior Creative Designer (Oct 2023 - Sept 2025)
           </h3>
-          <p className="2xl:w-[50%] xl:w-[50%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
-            Directed art and design for 19+ festive campaigns for Haldiram’s
-            across India and Dubai, creating high-impact visuals across print
-            and digital platforms. Developed brand identities for Diageo and
-            Sadhev, and crafted digital creative for brands like MILKLAB, Surf
-            Excel, and Sadhev.
+          <p className="2xl:w-[60%] xl:w-[54%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
+            Art directed photoshoots and designed visuals for 19+ festive
+            campaigns for Haldiram’s across India and Dubai. Developed brand
+            identities for Diageo and Sadhev, and crafted digital creative for
+            brands like MILKLAB, Surf Excel, and Sadhev.
+          </p>
+        </div>
+      </div>
+
+      <div className="sm:flex lg:gap-16 md:gap-14 sm:gap-12 items-center sm:space-y-0 space-y-4">
+        <Image
+          src={lenskart}
+          alt="Lenskart employee"
+          className="w-[100px] h-[100px]"
+        />
+        <div className="flex flex-col gap-3">
+          <h3 className="font-bold text-xl sm:text-[18px] text-[16px]">
+            Brand & Communication Designer (Sept 2025 - Present)
+          </h3>
+          <h4 className="-mt-[12px] text-gray-900 text-xl sm:text-[18px] text-[16px]">
+            (Senior Executive)
+          </h4>
+          <p className="2xl:w-[60%] xl:w-[55%] lg:w-[65%] md:w-[75%] text-gray-600 lg:text-[16px] md:text-[16px] sm:text-[16px] text-[14px]">
+            Working on brand identities, logo design, and packaging. Involved in
+            developing Intellectual Properties (IPs) and shaping their overall
+            online presence and digital journey. Design and create landing pages
+            with a focus on user experience and brand alignment, while
+            extensively leveraging AI tools to enhance creativity, and design
+            output.
           </p>
         </div>
       </div>

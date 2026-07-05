@@ -59,7 +59,7 @@ const AboutMe = () => {
             </p>
           </div>
           <div className="flex justify-end py-3 about-animate sm:text-md text-sm">
-            {`Copy right © Diksha 2025 :)`}
+            {`Copy right © Diksha 2026 :)`}
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ const AboutMe = () => {
           className="w-full sm:h-[500px] h-[400px] about-animate object-contain"
         />
         <div className="flex justify-end py-3 px-6 about-animate sm:text-md text-xs">
-          {`Copy right © Diksha 2025 :)`}
+          {`Copy right © Diksha 2026 :)`}
         </div>
       </div>
     </div>
