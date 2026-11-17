@@ -1,3 +1,4 @@
+import SpidermanCover from "@/app/public/assets/spiderman/SpidermanCover.png";
 import HaldiramFestiveCamp from "@/app/public/assets/HaldiramFestiveCamp.png";
 import shutterUp from "@/app/public/assets/shutterUp.png";
 import tarang from "@/app/public/assets/tarang.jpeg";
@@ -208,6 +209,56 @@ const Project = () => {
                 <Image
                   src={diageo}
                   alt="Tarang Project"
+                  className="w-full h-auto transition-transform duration-300 hover:scale-[1.05]"
+                />
+              </div>
+            </div>
+          </Link>
+        </div>
+
+        <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-6 sm:gap-8 gap-10 sm:mt-0 mt-8 items-end">
+          {/* Haldiram Section */}
+          {/* <Link
+            href="/haldiram"
+            className="w-full sm:w-[40%] md:w-[40%] lg:w-[35%] xl:w-[30%] cursor-pointer"
+          >
+            <div className="cursor-pointer">
+              <div className="pb-4 flex flex-col gap-1">
+                <p className="font-medium text-[16px] sm:text-[20px] md:text-[24px]">
+                  Haldiram&apos;s : Festive Campaigns
+                </p>
+                <p className="text-gray-500 font-normal text-[14px] sm:text-[14px]">
+                  Art Direction, Design Direction (India & Dubai)
+                </p>
+              </div>
+              <div className="overflow-hidden">
+                <Image
+                  src={HaldiramFestiveCamp}
+                  alt="Haldiram Festive campaign"
+                  className="w-full h-auto transition-transform duration-300 hover:scale-[1.05]"
+                />
+              </div>
+            </div>
+          </Link> */}
+
+          {/* Diageo Section */}
+          <Link
+            href="/spiderman"
+            className="w-full sm:w-[60%] md:w-[60%] lg:w-[65%] xl:w-[70%] cursor-pointer"
+          >
+            <div className="cursor-pointer">
+              <div className="pb-4 flex flex-col gap-1">
+                <p className="font-medium text-[16px] sm:text-[20px] md:text-[24px]">
+                  Marvel X Lenskart
+                </p>
+                <p className="text-gray-500 font-normal text-[14px] sm:text-[14px]">
+                  Art Direction, Campaign, UI Design, Visual Merchandising
+                </p>
+              </div>
+              <div className="overflow-hidden">
+                <Image
+                  src={SpidermanCover}
+                  alt="Spiderman Project"
                   className="w-full h-auto transition-transform duration-300 hover:scale-[1.05]"
                 />
               </div>

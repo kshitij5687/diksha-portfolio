@@ -164,7 +164,7 @@ const SpidermanShowCasePage = () => {
             <p className="text-[12px] leading-5 font-medium">
               Aman, Kartik, Himanshu, Abhishek,
               <br />
-              Harmeet & Shresth
+              Harneet & Shresth
             </p>
           </div>
         </div>
