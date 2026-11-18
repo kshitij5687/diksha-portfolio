@@ -57,7 +57,7 @@ const SpidermanShowCasePage = () => {
             />
           </div>
 
-          <div className="text-white flex-[75%] space-y-4">
+          <div className="text-white flex-[75%] space-y-1 sm:space-y-4">
             <div className="lg:text-[24px] md:text-[20px] sm:text-[16px] font-semibold showcase-animate">
               Lenskart:
             </div>
@@ -70,13 +70,14 @@ const SpidermanShowCasePage = () => {
               </p>
             </div>
           </div>
-          <div className="text-white flex-[40%] text-start space-y-4">
+          <div className="text-white flex-[40%] text-start space-y-1 sm:space-y-4">
             <div className="lg:text-[24px] md:text-[20px] sm:text-[16px] font-semibold showcase-animate">
               2026
             </div>
             <div>
-              <div className="text-[12px] font-medium leading-5 showcase-animate mb-1">
-                Campaign, Art Direction & Visual Merchandising
+              <div className="text-[12px] font-medium leading-5 showcase-animate mb-2">
+                Campaign, Art Direction & <br className="sm:hidden" />
+                Visual Merchandising
               </div>
             </div>
           </div>

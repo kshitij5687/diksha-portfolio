@@ -50,10 +50,10 @@ const AboutMe = () => {
               {`I'm Diksha Sharma!`}
             </h3>
             <p className="font-medium 2xl:text-[16px] lg:text-[14px] md:text-[14px] text-gray-600 2xl:w-[85%] lg:w-[84%] w-full mt-2 about-animate">
-              {` A designer with 2+ years of experience who doesn't just think
+              {` A designer with 3+ years of experience who doesn't just think
               outside the box, but obsesses over everything about it. Corners.
               Textures. Typography. And occasionally, what happens when it
-              spins. Currently working at Please See as a Creative Designer. I believe in
+              spins. Currently working at Lenskart as a Senior Bxecutive Brand Designer. I believe in
             ideas that transform not just on screens but into experiences as
             well.`}
             </p>
@@ -70,10 +70,10 @@ const AboutMe = () => {
             {`I'm Diksha Sharma!`}
           </h3>
           <p className="font-medium text-gray-600 about-animate mt-3 text-[14px]">
-            {` A designer with 2+ years of experience who doesn't just think
+            {` A designer with 3+ years of experience who doesn't just think
             outside the box, but obsesses over everything about it. Corners.
             Textures. Typography. And occasionally, what happens when it spins.
-            Currently working at Please See as a Creative Designer. I believe in
+            Currently working at Lenskart as a Senior Executive Brand Designer. I believe in
             ideas that transform not just on screens but into experiences as
             well.`}
           </p>
