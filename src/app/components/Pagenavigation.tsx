@@ -7,6 +7,7 @@ const PageNavigation = () => {
   const pathname = usePathname();
 
   const pages = [
+    "/spiderman",
     "/diageo",
     "/haldiram",
     "/haldiram-diwali",

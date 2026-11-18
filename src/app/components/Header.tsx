@@ -27,6 +27,7 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
     "/shuttrup",
     "/please-see",
     "/archive",
+    "/spiderman",
     "/teej",
     "/haldiram-diwali",
     "/archive/motion",
@@ -130,7 +131,7 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
           stagger: 0.1,
           delay: 0.3,
           ease: "power2.out",
-        }
+        },
       );
     }
   }, [mobileMenuOpen]);
@@ -160,7 +161,7 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
           <div
             onClick={scrollToWork}
             className={`${isActive(
-              "work"
+              "work",
             )} transform transition-all duration-300 group-hover:scale-110 cursor-pointer ${
               isDarkPage
                 ? "hover:text-gray-300 decoration-white"
@@ -172,7 +173,7 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
           <div
             onClick={() => router.push("/archive")}
             className={`${isActive(
-              "atchive"
+              "atchive",
             )} transform transition-all duration-300 group-hover:scale-110 cursor-pointer ${
               isDarkPage
                 ? "hover:text-gray-300 decoration-white"
@@ -184,7 +185,7 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
           <div
             onClick={() => router.push("/about")}
             className={`${isActive(
-              "/about"
+              "/about",
             )} transform transition-all duration-300 group-hover:scale-110 cursor-pointer ${
               isDarkPage
                 ? "hover:text-gray-300 decoration-white"
@@ -324,7 +325,7 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
                 setMobileMenuOpen(false);
               }}
               className={`cursor-pointer menu-item opacity-0 ${isActive(
-                "work"
+                "work",
               )} ${
                 // Apply isActive here
                 isDarkPage
@@ -340,7 +341,7 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
                 setMobileMenuOpen(false);
               }}
               className={`cursor-pointer menu-item opacity-0 ${isActive(
-                "archive"
+                "archive",
               )} ${
                 // Apply isActive here
                 isDarkPage
@@ -356,7 +357,7 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
                 setMobileMenuOpen(false);
               }}
               className={`cursor-pointer menu-item opacity-0 ${isActive(
-                "/about"
+                "/about",
               )} ${
                 // Apply isActive here
                 isDarkPage

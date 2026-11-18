@@ -81,92 +81,91 @@ const SpidermanShowCasePage = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-5 sm:mt-12">
+        <Image
+          src={Spidey1}
+          alt="Winter Billboard PNG"
+          className="w-full h-auto"
+        />
+      </div>
+      <div>
+        <Image src={Spidey2} alt="Spidey 2" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey3} alt="Spidey 3" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey4} alt="Spidey 4" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey5} alt="Spidey 5" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey6} alt="Spidey 6" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey7} alt="Spidey 7" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey8} alt="Spidey 8" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey9} alt="Spidey 9" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey10} alt="Spidey 10" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey11} alt="Spidey 11" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey12} alt="Spidey 12" className="w-full h-auto" />
+      </div>
+      <div>
+        <Image src={Spidey13} alt="Spidey 13" className="w-full h-auto" />
+      </div>
 
-        <div className="mt-5 sm:mt-12">
-          <Image
-            src={Spidey1}
-            alt="Winter Billboard PNG"
-            className="w-full h-auto"
-          />
-        </div>
+      {/* Credits Section */}
+      <div className="grid max-w-[90%] mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mt-6 sm:mt-10 md:mt-14 mb-6 sm:mb-10 md:mb-16 text-white">
         <div>
-          <Image src={Spidey2} alt="Spidey 2" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey3} alt="Spidey 3" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey4} alt="Spidey 4" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey5} alt="Spidey 5" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey6} alt="Spidey 6" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey7} alt="Spidey 7" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey8} alt="Spidey 8" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey9} alt="Spidey 9" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey10} alt="Spidey 10" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey11} alt="Spidey 11" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey12} alt="Spidey 12" className="w-full h-auto" />
-        </div>
-        <div>
-          <Image src={Spidey13} alt="Spidey 13" className="w-full h-auto" />
+          <h3 className="text-[18px] md:text-[20px] font-semibold mb-3">
+            Project Manager
+          </h3>
+          <p className="text-[12px] leading-5 font-medium">
+            Somya Nagabhushan
+            <br />
+            Ananya Banerjee (Assistant Manager)
+          </p>
         </div>
 
-        {/* Credits Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mt-6 sm:mt-10 md:mt-14 mb-6 sm:mb-10 md:mb-16 text-white">
-          <div>
-            <h3 className="text-[18px] md:text-[20px] font-semibold mb-3">
-              Project Manager
-            </h3>
-            <p className="text-[12px] leading-5 font-medium">
-              Somya Nagabhushan
-              <br />
-              Ananya Banerjee (Assistant Manager)
-            </p>
-          </div>
+        <div>
+          <h3 className="text-[18px] md:text-[20px] font-semibold mb-3">
+            Art Direction
+          </h3>
+          <p className="text-[12px] leading-5 font-medium">
+            Diksha Sharma
+            <br />
+            Nisha Verma
+          </p>
+        </div>
 
-          <div>
-            <h3 className="text-[18px] md:text-[20px] font-semibold mb-3">
-              Art Direction
-            </h3>
-            <p className="text-[12px] leading-5 font-medium">
-              Diksha Sharma
-              <br />
-              Nisha Verma
-            </p>
-          </div>
+        <div>
+          <h3 className="text-[18px] md:text-[20px] font-semibold mb-3">
+            Sound Design
+          </h3>
+          <p className="text-[12px] leading-5 font-medium">Studio One</p>
+        </div>
 
-          <div>
-            <h3 className="text-[18px] md:text-[20px] font-semibold mb-3">
-              Sound Design
-            </h3>
-            <p className="text-[12px] leading-5 font-medium">Studio One</p>
-          </div>
-
-          <div>
-            <h3 className="text-[18px] md:text-[20px] font-semibold mb-3">
-              3D & Motion Design
-            </h3>
-            <p className="text-[12px] leading-5 font-medium">
-              Aman, Kartik, Himanshu, Abhishek,
-              <br />
-              Harneet & Shresth
-            </p>
-          </div>
+        <div>
+          <h3 className="text-[18px] md:text-[20px] font-semibold mb-3">
+            3D & Motion Design
+          </h3>
+          <p className="text-[12px] leading-5 font-medium">
+            Aman, Kartik, Himanshu, Abhishek,
+            <br />
+            Harneet & Shresth
+          </p>
         </div>
       </div>
     </div>

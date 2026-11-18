@@ -5,7 +5,6 @@ import React, { useState } from "react";
 import PageNavigation from "../components/Pagenavigation";
 import CursorLineTrail from "../components/CursourLine";
 import Header from "../components/Header";
-import SpidermanLogo from "@/app/public/assets/spiderman/SpidermanLogo.png";
 import SpidermanShowCasePage from "./_components/SpidermanShowCasePage";
 
 const Spiderman = () => {
