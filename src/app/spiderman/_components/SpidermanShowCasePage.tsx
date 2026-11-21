@@ -85,6 +85,17 @@ const SpidermanShowCasePage = () => {
         </div>
       </div>
       <div className="mt-5 sm:mt-12">
+        <div className="relative w-full" style={{ padding: "56.25% 0 0 0" }}>
+          <iframe
+            src="https://player.vimeo.com/video/1248898896?autoplay=1&muted=1&loop=1&background=1"
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder={0}
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+            title="Spiderman Theatre Cut for Music with Supers"
+          />
+        </div>
+
         <Image
           src={Spidey1}
           alt="Winter Billboard PNG"
@@ -116,6 +127,20 @@ const SpidermanShowCasePage = () => {
       <div>
         <Image src={Spidey8} alt="Spidey 8" className="w-full h-auto" />
       </div>
+
+      <div className="relative w-full h-screen overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/videos/Landing.mp4" type="video/mp4" />
+        </video>
+      </div>
+
       <div>
         <Image src={Spidey9} alt="Spidey 9" className="w-full h-auto" />
       </div>
