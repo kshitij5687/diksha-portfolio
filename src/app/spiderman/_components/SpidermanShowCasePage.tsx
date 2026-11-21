@@ -7,6 +7,7 @@ import Spidey2 from "@/app/public/assets/spiderman/Spidey2.png";
 import Spidey3 from "@/app/public/assets/spiderman/Spidey3.png";
 import Spidey4 from "@/app/public/assets/spiderman/Spidey4.png";
 import Spidey5 from "@/app/public/assets/spiderman/Spidey5.png";
+import Spidey5o from "@/app/public/assets/spiderman/Spidey5-5.png";
 import Spidey6 from "@/app/public/assets/spiderman/Spidey6.png";
 import Spidey7 from "@/app/public/assets/spiderman/Spidey7.png";
 import Spidey8 from "@/app/public/assets/spiderman/Spidey8.png";
@@ -100,14 +101,18 @@ const SpidermanShowCasePage = () => {
         <Image src={Spidey4} alt="Spidey 4" className="w-full h-auto" />
       </div>
       <div>
-        <Image src={Spidey5} alt="Spidey 5" className="w-full h-auto" />
+        <Image src={Spidey5o} alt="Spidey 5" className="w-full h-auto" />
       </div>
       <div>
         <Image src={Spidey6} alt="Spidey 6" className="w-full h-auto" />
       </div>
       <div>
+        <Image src={Spidey5} alt="Spidey 5" className="w-full h-auto" />
+      </div>
+      <div>
         <Image src={Spidey7} alt="Spidey 7" className="w-full h-auto" />
       </div>
+
       <div>
         <Image src={Spidey8} alt="Spidey 8" className="w-full h-auto" />
       </div>
